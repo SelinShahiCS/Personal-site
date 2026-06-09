@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/favicon.jpg" type="image/png">
     <title>Why I Chose Python | Selin Shahi</title>
 </head>
 <body>
-    <header>
-        <div class="logo-box">
+<header class="header">
+    <div class="header-left">
+        <div class="logo-box"> 
             <div class="logo">Selin Shahi</div>
             <p class="site-motto">We believe in code</p>
+        </div> 
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="search...">
+            <p id="noResults" style="display:none; margin-top:20px;">No Result Found</p>
         </div>
-    </header>
-    
-        <nav class="nav">
-            <a href="../index.html">Home</a>
-            <a href="../cv.html">CV</a>
-            <a href="../projects.html">Projects</a>
-        </nav>
-        <div class="menu-btn">&#9776;</div>
-    </header>
+    </div>
+  
+  <nav class="nav desktop-nav">
+    <a href="/index.html">Home</a>
+    <a href="/article.html">Article</a>
+    <a href="/projects.html">Project</a>
+    <a href="/book/index.html">Book</a>
+  </nav>
+
+  
+<div class="menu-btn" id="menuBtn">☰</div>
+</header> 
+ <!-- Mobile Side Menu  -->
+<div class="side-menu" id="sideMenu">
+  <div class="close-btn" id="closeBtn">&times;</div>
+
+  <a href="cv.html">CV</a>
+  <a href="article.html">Article</a>
+  <a href="projects.html">Project</a>
+  <a href="/book/index.html">Book</a>
+</div>
+
+<div class="overlay" id="overlay"></div> 
     <main class="article-page">
 
     <h1>Why I Chose Python as My First Programming Language</h1>

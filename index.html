@@ -13,67 +13,125 @@
 </head>
 <body>
 <header class="header">
-    <div class="logo-box">
-        <div class="logo">Selin Shahi</div>
-        <p class="site-motto">We believe in code</p>
+    <div class="header-left">
+        <div class="logo-box"> 
+            <div class="logo">Selin Shahi</div>
+            <p class="site-motto">We believe in code</p>
+        </div> 
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="search...">
+            <p id="noResults" style="display:none; margin-top:20px;">No Result Found</p>
+        </div>
     </div>
   
-
   <nav class="nav desktop-nav">
-    <a href="cv.html">CV</a>
     <a href="article.html">Article</a>
     <a href="projects.html">Project</a>
     <a href="/book/index.html">Book</a>
   </nav>
 
-  <div class="search-box">
-    <input type="text" id="searchInput" placeholder="search...">
-    <p id="noResults" style="display:none; margin-top:20px;">No Result Found</p>
-  </div>
+  
 
 
 
   <div class="menu-btn" id="menuBtn">☰</div>
-</header>
-<!-- Mobile Side Menu -->
+</header> 
+ <!-- Mobile Side Menu  -->
 <div class="side-menu" id="sideMenu">
   <div class="close-btn" id="closeBtn">&times;</div>
 
-  <a href="cv.html">CV</a>
-  <a href="article.html">Article</a>
-  <a href="projects.html">Project</a>
-  <a href="/book/index.html">Book</a>
+    <a href="article.html">Article</a>
+    <a href="projects.html">Project</a>
+    <a href="/book/index.html">Book</a>
+
 </div>
 
-<div class="overlay" id="overlay"></div>
+<div class="overlay" id="overlay"></div> 
 
 
 
 
-    <section class="hero">
-        <img src="images/Background.jpg" alt="Hero image">
-    </section>
-    <section class="intro item">
-        <div class="intro-box item">
-            <h1>Hi, I'm Selin</h1>
+   <div class="about-content">
+    <div class="about-section-wrap">
+        <div class="about-text">
+            <p>Hi, I'm Selin</p>
+        </div>
+    </div>
+    
+    <div class="about-main">  
+        <div class="about-description">
             <h2>A Future Full-Stack Developer</h2>
             <p>
                 I'm a CS student passionate about backend and frontend development.
                 I'm preparing for academic and proffesional oppurtunities in South Korea and
                 continuously building my skills through projects and
                 research-oriented work.
-            </p>
+            </p> 
         </div>
-    </section>
-    <section class="links-section item">
-        <h3>Connect with me</h3>
-        <div class="links-box">
-            <a href="https://github.com/SelinShahi" target="_blank">
-                <i class="fab fa-github"></i>GitHub</a>
-            <a href="https://https://www.linkedin.com/in/clia-gold-ba50aa3b1" target="_blank">
-                <i class="fab fa-linkedin"></i>Linkedin</a>
+        <div class="about-image">
+            <img src="images/Background.jpg" alt="hero-image"> 
         </div>
+    </div>
+
+</div>
+<div class="contact"><h3>Contact</h3></div>
+<div class="contact-section">
+    <a href="https://github.com/SelinShahi" target="_blank">
+        <i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/clia-gold-ba50aa3b1" target="_blank">
+        <i class="fab fa-linkedin"></i></a>
+    <a href="cliagold036@gmail.com" target="_blank">
+        <i class="fas fa-envelope"></i></a>
+</div>
     </section>
+
+
+<div class="resume-box">
+    <div class="resume-grid">
+        <div class="resume-item">
+            <h3>Education</h3>
+            <p><i class="fas fa-graduation-cap"></i>Computer Science</p>
+        </div>
+        <div class="resume-item">
+            <h3>Languages</h3>
+            <p><i class="fas fa-globe"> Persian </i></p>
+            <p><i class="fas fa-globe">  English (Upper Intermediate) |  Korean (Begginer)</i></p>
+        </div>
+        <div class="resume-item">
+            <h3>Known</h3>
+            <div class="tech-icons">
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fas fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-item">
+            <h3>Learning</h3>
+            <div class="tech-icons">
+                <div class="tech-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
     <script src="script.js"></script>
 </body>
- </html>
+ </html> 

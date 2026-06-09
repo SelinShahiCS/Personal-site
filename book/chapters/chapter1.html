@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Chapter 1 - Introduction to AI</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family = Playfair+display : wght@600&family=Inter:wght@400;400;500&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="icon" href="/images/favicon.jpg" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family = Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="/images/favicon.jpg" type="image/png">
+    <title>Selin Shahi</title>
 </head>
 <body>
-  <header class="header-chapter">
-        <div class="logo-chapter">
-            Selin Shahi
+<header class="header">
+    <div class="header-left">
+        <div class="logo-box"> 
+            <div class="logo">Selin Shahi</div>
+            <p class="site-motto">We believe in code</p>
+        </div> 
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="search...">
+            <p id="noResults" style="display:none; margin-top:20px;">No Result Found</p>
         </div>
-    </header>
+    </div>
+  
+  <nav class="nav desktop-nav">
+    <a href="/index.html">Home</a>
+    <a href="/article.html">Article</a>
+    <a href="/projects.html">Project</a>
+    <a href="/book/index.html">Book</a>
+  </nav>
+
+
+  <div class="menu-btn" id="menuBtn">☰</div>
+</header> 
+ <!-- Mobile Side Menu  -->
+<div class="side-menu" id="sideMenu">
+  <div class="close-btn" id="closeBtn">&times;</div>
+
+    <a href="article.html">Article</a>
+    <a href="projects.html">Project</a>
+    <a href="/book/index.html">Book</a>
+
+</div>
+
+<div class="overlay" id="overlay"></div> 
 <section class="chapter-container">
 
   <h1>Chapter 1</h1>
